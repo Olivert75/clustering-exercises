@@ -1,2 +1,2 @@
 #  CLUSTERING EXERCISES
-This is contains all the exercises in the curriculum 
+This is contains all the exercises and warmup in the curriculum
