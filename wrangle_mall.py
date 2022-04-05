@@ -17,7 +17,7 @@ def get_connection(db):
     return f'mysql+pymysql://{user_name}:{password}@{host}/{db}'
     
 def get_mallcustomer_data():
-    df = pd.read_sql('SELECT * FROM customers;', w.get_connection('mall_customers'))
+    df = pd.read_sql('SELECT * FROM customers;', get_connection('mall_customers'))
     return df.set_index('customer_id')
 
 #Split the data into train, validate, and split
